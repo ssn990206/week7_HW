@@ -1,0 +1,34 @@
+.login{
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.mt20{
+    margin-top:20px;
+}
+.mt36{
+    margin-top:36px;
+}
+.forget{
+    color: $brown;
+    font-weight:800;
+}
+.btnSub{
+    color: $brown;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid $brown;
+}
+.btnSub:hover{
+    background: $gray 0% 0% no-repeat padding-box;
+}
+
+@media(max-width:768px){
+    .login{
+        margin-top: 50px;
+        margin-bottom: 105px;
+    }
+}
+@media(max-width:414px){
+    .mt28{
+        margin-top: 28px;
+    }
+}

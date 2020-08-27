@@ -1,0 +1,279 @@
+image {
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+    color: $dgray;
+}
+
+li {
+    text-decoration: none;
+}
+
+.navbar {
+    width: 940px;
+    height: 56px;
+    color: $dgray;
+    display: flex;
+    align-items: center;
+}
+
+.navbar-toggler {
+    display: none;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+}
+
+.navbar-nav {
+    display: flex;
+    align-items: center;
+    max-height: 0px;
+}
+
+.navbar .active {
+    max-height: 200px;
+}
+
+.navbar-collapse {
+    display: flex;
+    align-items: center;
+}
+
+.nav-link {
+    color: #3F5D45;
+    font-weight: bold;
+    padding: 0 30px;
+    display: block;
+}
+
+.navbar-link {
+    padding-left: 30px;
+}
+
+.burger {
+    display: none;
+}
+
+.menu {
+    display: none;
+}
+
+.mr32 {
+    margin-right: 32px;
+}
+
+.banner {
+    width: 100%;
+    height: 870px;
+    background-image: url(../image/banner.png);
+    color: $white;
+}
+
+.bannerShop {
+    width: 350px;
+    height: 60px;
+    border-radius: 30px;
+    border: $white 2px solid;
+    text-align: center;
+    line-height: 60px;
+}
+
+.good {
+    margin-top: 60px;
+}
+
+.goodIntro {
+    width: 350px;
+}
+
+.goodIntro a {
+    color: $gold;
+}
+
+.goodIntro a:hover {
+    color: $brown;
+}
+
+.training {
+    width: 350px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    border: 2px solid #000000;
+    border-radius: 30px;
+}
+
+.BGgood {
+    width: 100%;
+    background: #E0E0E0;
+}
+
+.moreGood {
+    margin-top: 60px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.moreGoodDiv {
+    height: 540px;
+    background-size: cover;
+    background-position: bottom;
+}
+
+.moreGoodPic1 {
+    background-image: url(../image/Mgood1.png);
+}
+
+.moreGoodPic2 {
+    background-image: url(../image/Mgood2.png);
+}
+
+.moreGoodPic3 {
+    background-image: url(../image/Mgood3.svg);
+}
+
+.contact {
+    width: 100%;
+    height: 600px;
+    margin-top: 60px;
+    background-image: url(../image/contact.png);
+}
+
+.sub {
+    font-weight: 800;
+    font-size: 32px;
+    color: $dgray;
+    margin-bottom: 20px;
+    margin-top: 321px;
+}
+
+.email {
+    width: 350px;
+    height: 60px;
+    border: 2px solid $brown;
+    background: $white 0% 0% no-repeat padding-box;
+    color: $gray;
+    border-radius: 4px;
+    line-height: 60px;
+    padding-left: 16px;
+}
+
+.subBut {
+    width: 131px;
+    height: 58px;
+    color: $white;
+    line-height: 58px;
+    text-align: center;
+    border: 2px solid $brown;
+    background: $brown 0% 0% no-repeat padding-box;
+    border-radius: 0px 4px 4px 0px;
+    position: relative;
+    left: 200px;
+    top: -61px;
+}
+
+.BGfooter {
+    width: 100%;
+    height: 80px;
+    background: $brown;
+}
+
+.footer {
+    padding-top: 20px;
+    width: 60%;
+}
+
+.footCopy {
+    line-height: 38px;
+    font-size: 14px;
+    margin-left: 20px;
+    color: $white;
+}
+
+.footMenu {
+    line-height: 38px;
+    color: $white;
+}
+
+@media(max-width: 768px) {
+    .navbar {
+        width: 100%;
+    }
+    .navbarLogo {
+        margin-left: 20px;
+    }
+    .navbarMenu {
+        margin-right: 30px;
+    }
+    .banner {
+        height: 480px;
+        background-position: 25% 50%;
+    }
+    .bannerShop {
+        width: 270px;
+    }
+    .goodIntro {
+        width: 300px;
+    }
+    .training {
+        width: 300px;
+    }
+    .footer {
+        width: 90%;
+    }
+    .footMenu {
+        max-height: 0px;
+        max-width: 0px;
+        overflow: hidden;
+    }
+}
+
+@media(max-width: 414px) {
+    .navbar {
+        flex-direction: row;
+    }
+    .navbarMenu {
+        max-height: 0px;
+        max-width: 0px;
+        overflow: hidden;
+    }
+    .burger {
+        display: block;
+        display: flex;
+        margin-right: 20px;
+    }
+    .menu {
+        color: $white;
+        width: 100%;
+        z-index: 100;
+        font-size: 20px;
+        line-height: 56px;
+        text-align: center;
+    }
+    .menu ul {
+        padding-left: 0px;
+    }
+    .menu li {
+        height: 56px;
+        background: #707070 0% 0% no-repeat padding-box;
+        border-bottom: $white 1px solid;
+    }
+    .goodIntro {
+        margin-bottom: 32px;
+    }
+    .moreGood {
+        margin-top: 0px;
+        padding-top: 32px;
+    }
+    .moreGoodDiv {
+        width: 350px;
+        height: 350px;
+    }
+    .contact {
+        background-image: url(../image/contact2.png);
+        margin-top: 40px;
+    }
+}

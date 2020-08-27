@@ -1,0 +1,63 @@
+.BGbrand{
+    height: 52px;
+    background: #916000 0% 0% no-repeat padding-box;
+    font-size: 20px;
+    color: $white;
+}
+.brand{
+    width: 940px;
+}
+.brand ul{
+    padding: 0px;
+}
+.brand li{
+    margin-right: 28px;
+    line-height: 52px;
+}
+
+.product{
+    margin-top: 80px;
+}
+.option img{
+    margin-right: 9px;
+}
+.mt60{
+    margin-top: 60px;
+}
+.modalText{
+    color: $gold;
+    text-align: center;
+    font-weight: 800;
+}
+
+.page{
+    margin-top: 80px;
+    margin-bottom:60px;
+    width: 100px;
+}
+.page li{
+    font-size: 20px;
+    margin-right:20px;
+}
+.page li:nth-child(3){
+    margin-right:0px;
+}
+.pageActive{
+    text-decoration: underline;
+    color: $gold;
+}
+
+@media(max-width: 768px){
+    .BGbrand{
+        display: none;
+    }
+    .page{
+        margin-bottom:40px;
+    }
+}
+
+@media(max-width: 414px){
+    .product{
+        margin-top: 42px;
+    }
+}

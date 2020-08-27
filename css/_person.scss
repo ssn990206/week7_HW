@@ -1,0 +1,33 @@
+.tabBar{
+    width: 940px;
+    color:$dgray;
+    margin-top: 50px;
+}
+.tabBar div:nth-child(1){
+    border-bottom: 1px $brown solid;
+    padding-bottom: 5px;
+}
+
+.me{
+    margin-top: 40px;
+    width: 940px;
+    font-size:16px;
+    color: $text;
+}
+.textSM{
+    color: $gray;
+    font-size: 14px;
+}
+
+.info{
+    color: $black;
+}
+
+@media(max-width: 768px){
+    .tabBar{
+        width:90%;
+    }
+    .me{
+        width:90%;
+    }
+}
